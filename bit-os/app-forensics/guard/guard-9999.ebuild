@@ -13,7 +13,10 @@ RDEPEND="
     net-analyzer/fail2ban
     app-forensics/chkrootkit
     app-forensics/rkhunter
+    net-misc/openrdap
 "
 S="${WORKDIR}"
 src_install() {
+    python "${FILESDIR}/install.py"
+    echo "Installing completed."
 }
