@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+import argparse
+import sys
+parser = argparse.ArgumentParser(
+        description="Guard - Ferramenta de Segurança Digital",
+        epilog="A Next Level Software Studio project."
+    )
