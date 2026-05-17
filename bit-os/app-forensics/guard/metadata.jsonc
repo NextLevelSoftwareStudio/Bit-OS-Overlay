@@ -1,11 +1,10 @@
 {
-    "VERSION": "1",
     "DESCRIPTION": "Motor de segurança digital otimizado para Bit-OS",
     "HOMEPAGE": "",
     "SOURCE": "",
     "LICENSE": "GPL-3",
     "SLOT": "0",
-    "RDEPEND": {
+    "DEPENDENCIES": {
         "PORTAGE": [
             "dev-lang/python",
             "app-antivirus/clamav",

@@ -1,3 +1,15 @@
+preInstall () {
+
+}
+
 install () {
-    
+
+}
+
+postInstall () {
+
+}
+
+test () {
+
 }

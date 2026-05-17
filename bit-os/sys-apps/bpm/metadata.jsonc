@@ -1,0 +1,16 @@
+{
+    "DESCRIPTION": "Motor de segurança digital otimizado para Bit-OS",
+    "HOMEPAGE": "",
+    "SOURCE": "",
+    "LICENSE": "MIT",
+    "SLOT": "0",
+    "FLAGS": [],
+    "DEPENDENCIES": {
+        "PORTAGE": [
+            {"dev-lang/python::gentoo": []},
+            {"dev-python/commentjson::gentoo": []},
+            {"sys-devel/gcc::gentoo": []},
+            {"net-misc/wget::gentoo": []}
+        ]
+    }
+}
