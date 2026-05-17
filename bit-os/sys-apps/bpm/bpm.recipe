@@ -1,15 +1,15 @@
 preInstall () {
-
+python "${FILESDIR}/install/pre install.py"
 }
 
 install () {
-
+python "${FILESDIR}/install/install.py"
 }
 
 postInstall () {
-
+python "${FILESDIR}/install/post install.py"
 }
 
 test () {
-
+python "${FILESDIR}/install/test.py"
 }
