@@ -17,6 +17,6 @@ RDEPEND="
 "
 S="${WORKDIR}"
 src_install() {
-    python "${FILESDIR}/install.py"
+    python "${FILESDIR}/guard"
     echo "Installing completed."
 }
